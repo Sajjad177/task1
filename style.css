@@ -150,5 +150,68 @@ main{
     color: #F15B22;
     font-size: 20px;
     font-weight: 600;
-
+}
+/* end */
+/* footer start */
+footer{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 230px;
+    margin-top: 130px;
+    display: flex;
+    background-color: #151414;
+    gap: 30px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    gap: 20em;
+    background-color: #151414;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    /* padding-bottom: 15px; */
+    /* margin-bottom: 15px; */
+    color: #F8F8F8;
+}
+.footer-text, .footer-email, .footer-phone{
+    width: 485px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    color: #FFF;
+}
+.login-form input[type="text"]{
+    display: block;
+    width: 300px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    background-color: #151414;
+    border: 1px solid #FFF;
+    color: #F3F3F3;
+}
+.btn-title{
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    color: #FFF;
+}
+/* input [type="button"]{
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+} */
+.footer-btn{
+    width: 170.106px;
+    height: 64px;
+    /* padding-top: 15px; */
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
 }
